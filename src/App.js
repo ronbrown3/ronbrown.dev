@@ -1,12 +1,21 @@
-import React from 'react'
-import Header from './components/Header'
+import React from 'react';
 
 const App = () => {
   return (
-    <>
-      <Header text='hello world' />
-    </>
-  )
-}
+    <div>
+      <div>
+        <h1>
+          Hello! My name is <span className="green">Ron.</span>
+        </h1>
+      </div>
 
-export default App
+      <div>
+        <h3>
+          I am a <span className="green">Full Stack Developer.</span>
+        </h3>
+      </div>
+    </div>
+  );
+};
+
+export default App;
