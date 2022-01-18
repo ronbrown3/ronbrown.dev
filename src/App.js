@@ -5,7 +5,7 @@ const App = () => {
     document.body.style.backgroundColor = '#282828';
   }, []);
   return (
-    <div>
+    <div style={{ minHeight: '100vh' }}>
       <div>
         <h1>
           Hello! My name is <span className="green">Ron.</span>
