@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const App = () => {
+  useEffect(() => {
+    document.body.style.backgroundColor = '#282828';
+  }, []);
   return (
     <div>
       <div>
